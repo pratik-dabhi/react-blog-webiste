@@ -10,8 +10,8 @@ import { Login } from "./pages/Login/Login";
 import { Home } from "./pages/Home/Home";
 import { Single } from "./pages/Single/Single";
 import { Write } from "./pages/Write/Write";
-import { Navbar } from "./components/Navbar";
-import { Footer } from "./components/Footer";
+import { Navbar } from "./Components/Navbar";
+import { Footer } from "./Components/Footer";
 import "./App.css";
 
 const Layout = () => {
@@ -64,7 +64,7 @@ const router = createBrowserRouter([
 function App() {
   return (
     <div className="app">
-     <div className="container">
+     <div className="">
        <RouterProvider router={router} />
      </div>
     </div>

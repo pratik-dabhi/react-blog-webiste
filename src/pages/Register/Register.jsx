@@ -4,6 +4,7 @@ import { Link } from 'react-router-dom';
 
 export const Register = () => {
   return (
+	<div className="img-container">
     <div className="container">
 	<div className="d-flex justify-content-center vh-100">
 		<div className="card">
@@ -39,6 +40,7 @@ export const Register = () => {
 			</div>
 		</div>
 	</div>
+</div>
 </div>
   )
 }

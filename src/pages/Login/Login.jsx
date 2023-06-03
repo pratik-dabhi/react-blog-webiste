@@ -5,6 +5,7 @@ import {Link} from 'react-router-dom';
 
 export const Login = () => {
   return (
+	<div className="img-container">
 	<div className="container">
 	<div className="d-flex justify-content-center vh-100">
 		<div className="card">
@@ -38,6 +39,7 @@ export const Login = () => {
 				</div>
 			</div>
 		</div>
+	</div>
 	</div>
 </div>
       )
