@@ -1,7 +1,5 @@
 import React from "react";
 import "./Footer.scss";
-// import '../node_modules/font-awesome/css/font-awesome.min.css';
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
 export const Footer = () => {
   return (
@@ -27,27 +25,27 @@ export const Footer = () => {
                   <ul>
                     <li>
                       <a href="#">
-                        <i className="fa fa-facebook"></i>
+                      <i class="fa-brands fa-facebook"></i>
                       </a>
                     </li>
                     <li>
                       <a href="#">
-                        <i className="fa fa-twitter"></i>
+                      <i class="fa-brands fa-twitter"></i>
                       </a>
                     </li>
                     <li>
                       <a href="#">
-                        <i className="fa fa-google-plus"></i>
+                      <i class="fa-brands fa-google"></i>
                       </a>
                     </li>
                     <li>
                       <a href="#">
-                        <i className="fa fa-linkedin"></i>
+                      <i class="fa-brands fa-linkedin"></i>
                       </a>
                     </li>
                     <li>
                       <a href="#">
-                        <i className="fa fa-instagram"></i>
+                      <i class="fa-brands fa-instagram"></i>
                       </a>
                     </li>
                   </ul>
