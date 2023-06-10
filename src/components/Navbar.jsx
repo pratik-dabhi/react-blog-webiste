@@ -7,7 +7,7 @@ export const Navbar = () => {
     <div className='navbar bg-warning'>
       <div className='container'> 
         <div className="logo">
-          <img src={require("./logo.png")} alt="" srcset="" width={100} />
+          <a href="/"><img src={require("./logo.png")} alt="" srcset="" width={100} /></a>
         </div>
         <div className="d-flex">
           <Link className="text-decoration-none text-dark" to="/?cat=art">

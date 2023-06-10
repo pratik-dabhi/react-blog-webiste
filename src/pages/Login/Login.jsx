@@ -18,7 +18,7 @@ export const Login = () => {
 				</div>
 			</div>
 			<div className="card-body">
-				<form>
+				<form action='/'>
 					<div className="input-group form-group mb-3">
 						<input type="text" className="form-control" placeholder="username"/>
 					</div>

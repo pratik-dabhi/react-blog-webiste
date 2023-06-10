@@ -10,8 +10,8 @@ import { Login } from "./pages/Login/Login";
 import { Home } from "./pages/Home/Home";
 import { Single } from "./pages/Single/Single";
 import { Write } from "./pages/Write/Write";
-import { Navbar } from "./Components/Navbar";
-import { Footer } from "./Components/Footer";
+import { Navbar } from "./components/Navbar";
+import { Footer } from "./components/Footer";
 import "./App.css";
 
 const Layout = () => {
