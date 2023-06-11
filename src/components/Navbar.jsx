@@ -1,6 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import './Navbar.scss';
 
 export const Navbar = () => {
   return (
@@ -9,7 +9,7 @@ export const Navbar = () => {
         <div className="logo">
           <a href="/"><img src={require("./logo.png")} alt="" srcset="" width={100} /></a>
         </div>
-        <div className="d-flex">
+        <div className="menu d-flex">
           <Link className="text-decoration-none text-dark" to="/?cat=art">
             <h6 className='p-2'>ART</h6>
           </Link>

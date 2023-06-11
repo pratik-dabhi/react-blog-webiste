@@ -27,17 +27,19 @@ export const Single = () => {
   return (
     <div className="single d-flex gap-3 container">
       <div className="content w-75">
+        <div className="w-100">
         <img
           src="https://images.pexels.com/photos/733853/pexels-photo-733853.jpeg?auto=compress&cs=tinysrgb&w=400"
           alt=""
           srcset=""
-          className=""
+          className="w-100 mt-100"
         />
+        </div>
         <div className="user mt-2 d-flex">
           <img
             src="https://images.pexels.com/photos/771742/pexels-photo-771742.jpeg?auto=compress&cs=tinysrgb&w=400"
             alt=""
-            className="rounded me-3"
+            className="rounded-circle me-3"
             width={50}
           />
           <div className="info">

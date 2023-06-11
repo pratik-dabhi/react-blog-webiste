@@ -1,5 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
+import './Home.scss';
 
 export const Home = () => {
   const posts = [
@@ -53,29 +54,17 @@ export const Home = () => {
     <div className='container home'>
       <div className="post">
         {posts.map(posts=>(
-          posts.id % 2 === 0 ?(
-          <div className="post d-flex mb-5 mt-3" key={posts.id}>
+          // posts.id % 2 === 0 ?(
+          <div className="post-cont d-flex mb-5 mt-3" key={posts.id}>
             <div className="img">
               <img src={posts.img} alt="" srcset="" width={300}/>
             </div>
             <div className="content p-4">
             <Link className='text-decoration-none text-dark' to={`/post/${posts.id}`}><h1>{posts.title}</h1></Link>
-              <h1>{posts.title}</h1>
               <p>{posts.desc}</p>
-              <button className='btn btn-warning'>Read More</button>
+              <Link className='text-decoration-none text-dark' to={`/post/${posts.id}`}><button className='btn btn-warning'>Read More</button></Link>
             </div>
           </div>
-          ) : <div className="post d-flex mb-5 mt-3" key={posts.id}>
-          <div className="content p-4">
-            <Link className='text-decoration-none text-dark' to={`/post/${posts.id}`}><h1>{posts.title}</h1></Link>
-            
-            <p>{posts.desc}</p>
-            <button className='btn btn-warning'>Read More</button>
-          </div>
-          <div className="img">
-            <img src={posts.img} alt="" srcset="" width={300}/>
-          </div>
-        </div>
         ))}
       </div>
     </div>
